@@ -1,18 +1,18 @@
-#!/bin/python3
 import sys
 
 chave 	 = sys.argv[1].lower()
-word	 = sys.argv[2].lower()
+palavra	 = sys.argv[2].lower()
 
-original = list( map( chr, range( 97, 123 ) ) )
-letra	 = ord(chave)
-fic	 = []
-cript	 = ""
+#criei o alfabeto usando a função map para não usar a dependência da lib "string"
+alfabeto		= list( map( chr, range( 97, 123 ) ) )
+asciiChave		= ord( chave )
+alfabetoModificado	= []
+palavraCifrada		= ""
 
-for i in range (letra, 123):
-	fic.append(chr(i))
-for i in range (97,letra):
-	fic.append(chr(i))
-for i in word:
-	cript += fic[original.index(i)]
-print(cript)
+for i in range ( asciiChave, 123 ):
+	alfabetoModificado.append( chr( i ) )
+for i in range ( 97,asciiChave ):
+	alfabetoModificado.append( chr( i ) )
+for i in palavra:
+	palavraCifrada += alfabetoModificado[ alfabeto.index( i ) ]
+print(palavraCifrada)
