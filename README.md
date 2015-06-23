@@ -17,6 +17,6 @@ Fonte onde aprendi o algoritmo: https://www.youtube.com/watch?v=wtwlVqEoyyw
 + 8º - Com o indice em "mãos" vamos pegar a letra do indice 2 do alfabeto que iniciou com nossa chave, como o "g" é a primeira letra tem indice zero, a letra "i" corresponde ao indice 2.
 + 9º - As linha 7 até 8 se repentem até acabar as letras, então a palavra está cifrada
 
- <code>python ./main.py qualquerfrase</code>
+ <code>python3 ./main.py qualquerfrase</code>
 
 Ainda preciso melhorar o código e implementar a decrifragem, então no momento está somente cifrando.
