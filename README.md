@@ -19,4 +19,4 @@ Fonte onde aprendi o algoritmo: https://www.youtube.com/watch?v=wtwlVqEoyyw
 
  <code>python3 ./main.py qualquerfrase</code>
 
-Ainda preciso melhorar o código e implementar a decrifragem, então no momento está somente cifrando.
+Ainda preciso melhorar o código e implementar a decrifragem da chave, onde é informado uma palavra e o algoritmo informa a chave usada para crifrar aquela palavra, então no momento está somente cifrando, e descifrando caso informar a chave.
