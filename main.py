@@ -3,7 +3,7 @@ import sys
 chave 	 = sys.argv[1].lower()
 palavra	 = sys.argv[2].lower()
 
-#criei o alfabeto usando a função map para não usar a dependência da lib "string"
+#criei o alfabeto usando a função chr para não usar a dependência da lib "string"
 alfabeto		= list( map( chr, range( 97, 123 ) ) )
 asciiChave		= ord( chave )
 alfabetoModificado	= []
